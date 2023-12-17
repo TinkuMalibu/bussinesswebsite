@@ -3,6 +3,16 @@ import styles, { layout } from '../style';
 import { features } from '../constants';
 import Button from './Button';
 
+const FeatureCard = ( { icon, title, content, index }) => (
+  <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length -1} ? 'mb-6' : 'mb-0' `}>
+    <div>
+      <img src={ icon } alt='icon'
+      className='w-[50%] h-[50%] object-contain' />
+    </div>
+  </div>
+
+)
+
 const Business = () => {
   return (
     <section id='features'
@@ -14,8 +24,17 @@ const Business = () => {
         <Button />
       </div>
 
-      <div
-      ></div>
+      <div className={`${layout.sectionImg} flex-col`}>
+        {features.map((feature, index)=>(
+          <FeatureCard key={feature.id} {...feature}
+          index={index} />
+
+
+
+        ))}
+
+
+      </div>
 
     </section>
   )
