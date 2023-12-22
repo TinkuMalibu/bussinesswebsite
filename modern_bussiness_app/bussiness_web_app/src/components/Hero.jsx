@@ -14,15 +14,15 @@ const Hero = () =>
           alt='discount'
           className='w-[32px] h-[32px]' />
           <p className={`${styles.paragraph} ml-2`}>
-          <span className='text-white'>20%</span> DISCOUNT FOR {''}
-          <span className='text-white'>1 MONTH</span> ACCOUNT
+          <span className='text-white'>10%</span> DISCOUNT FOR {''}
+          <span className='text-white'>YOUR FIRST</span> IMAGE
           </p>
         </div>
         <div className='flex flex-row justify-center items-center w-full'>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px]
           text-[52px] text-white ss:leading-[100px] leading-[75px]'>
-          The Next <br className='sm:block hidden' /> {' '}
-          <span className='text-gradient'>Generation</span> <br></br>
+         CREATE <br className='sm:block hidden' /> {' '}
+          <span className='text-gradient'>images like</span> <br></br>
 
           </h1>
           <div className='ss: flex md: mr-4 mr-0'>
@@ -32,9 +32,8 @@ const Hero = () =>
 
         <h1 className='font-poppins font-semibold ss:text-[68px]
           text-[52px] text-white ss:leading-[100px] leading-[75px]
-          w-full'>Payment Method</h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Our team of experts uses a methodology to identify the credit cards most likely to fit your needs.
-        We examine annual percentage rates, annual fees.</p>
+          w-full'>this for your website or social media</h1>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>I am a photographer and cinematographer that loves to experiment with new technologies. This portrait of Victorine was created with Unreal Engine.</p>
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
