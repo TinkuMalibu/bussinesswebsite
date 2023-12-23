@@ -1,4 +1,3 @@
-import React from 'react'
 import { logo } from '../assets';
 import styles from '../style';
 import { footerLinks, socialMedia } from '../constants';
@@ -45,9 +44,7 @@ const Footer = () =>
             src={social.icon}
             alt={social.id}
             className={`w-[21px] h-[21px] object-contain cursor-pointer ${index !== socialMedia.lenght - 1 ? "mr-6" : "mr-0" }`}/>
-
           ))}
-
         </div>
       </div>
     </section>
